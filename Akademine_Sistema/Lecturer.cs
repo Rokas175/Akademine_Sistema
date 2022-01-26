@@ -14,7 +14,8 @@ namespace Akademine_Sistema
 
         public bool lecturer_Insert(string lecturer_name, string lecturer_lastname, string lecturer_login, string lecturer_pass, int subject_id, string subject_name)
         {
-            MySqlCommand command = new MySqlCommand("INSERT INTO `lecturer`(`lecturer_name`, `lecturer_last_name`, `lecturer_login`, `lecturer_pass`, `subject_id`, `subject_name`) VALUES (@lc_name, @lc_lastname, @lc_login, @lc_pass, @sbj_id, @sbj_name)", dataB.getConnection);
+            MySqlCommand command = new MySqlCommand("INSERT INTO `lecturer`(`lecturer_name`, `lecturer_last_name`, `lecturer_login`, `lecturer_pass`, `subject_id`, `subject_name`) " +
+                "VALUES (@lc_name, @lc_lastname, @lc_login, @lc_pass, @sbj_id, @sbj_name)", dataB.getConnection);
 
             command.Parameters.Add("@lc_login", MySqlDbType.String).Value = lecturer_login;
             command.Parameters.Add("@lc_pass", MySqlDbType.String).Value = lecturer_pass;

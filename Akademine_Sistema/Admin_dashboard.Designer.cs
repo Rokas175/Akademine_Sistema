@@ -62,7 +62,7 @@ namespace Akademine_Sistema
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 141);
+            this.label6.Location = new System.Drawing.Point(35, 141);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 17);
             this.label6.TabIndex = 75;
@@ -71,7 +71,7 @@ namespace Akademine_Sistema
             // hello_name
             // 
             this.hello_name.AutoSize = true;
-            this.hello_name.Location = new System.Drawing.Point(125, 14);
+            this.hello_name.Location = new System.Drawing.Point(100, 14);
             this.hello_name.Name = "hello_name";
             this.hello_name.Size = new System.Drawing.Size(81, 17);
             this.hello_name.TabIndex = 74;
@@ -80,11 +80,11 @@ namespace Akademine_Sistema
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 14);
+            this.label1.Location = new System.Drawing.Point(21, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 17);
+            this.label1.Size = new System.Drawing.Size(66, 17);
             this.label1.TabIndex = 73;
-            this.label1.Text = "welcome USER";
+            this.label1.Text = "Welcome";
             // 
             // label_name
             // 
@@ -98,7 +98,7 @@ namespace Akademine_Sistema
             // label_password
             // 
             this.label_password.AutoSize = true;
-            this.label_password.Location = new System.Drawing.Point(100, 78);
+            this.label_password.Location = new System.Drawing.Point(100, 87);
             this.label_password.Name = "label_password";
             this.label_password.Size = new System.Drawing.Size(106, 17);
             this.label_password.TabIndex = 69;
@@ -107,7 +107,7 @@ namespace Akademine_Sistema
             // label_username
             // 
             this.label_username.AutoSize = true;
-            this.label_username.Location = new System.Drawing.Point(100, 49);
+            this.label_username.Location = new System.Drawing.Point(100, 61);
             this.label_username.Name = "label_username";
             this.label_username.Size = new System.Drawing.Size(109, 17);
             this.label_username.TabIndex = 68;
@@ -125,7 +125,7 @@ namespace Akademine_Sistema
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 80);
+            this.label3.Location = new System.Drawing.Point(21, 87);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 17);
             this.label3.TabIndex = 64;
@@ -134,7 +134,7 @@ namespace Akademine_Sistema
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 47);
+            this.label2.Location = new System.Drawing.Point(17, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 63;

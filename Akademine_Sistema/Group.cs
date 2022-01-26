@@ -50,8 +50,6 @@ namespace Akademine_Sistema
             }
         }
 
-
-
         public bool subject_to_group_Insert(int group_id, string group_name, int subject_id, string subject_name)
         {
             MySqlCommand command = new MySqlCommand("INSERT INTO `student_group_subjects`(`group_id`, `group_name`, `subject_id`, `subject_name`) VALUES (@gr_id, @gr_name, @sbj_id, @sbj_name)", dataB.getConnection);
@@ -60,7 +58,7 @@ namespace Akademine_Sistema
             command.Parameters.Add("@gr_name", MySqlDbType.String).Value = group_name;
             command.Parameters.Add("@sbj_id", MySqlDbType.String).Value = subject_id;
             command.Parameters.Add("@sbj_name", MySqlDbType.String).Value = subject_name;
-            //@gr_id, @gr_name, @sbj_id, @sbj_name
+           
             dataB.openConnection();
 
 

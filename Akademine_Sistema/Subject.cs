@@ -20,7 +20,6 @@ namespace Akademine_Sistema
 
             dataB.openConnection();
 
-
             if (command.ExecuteNonQuery() == 1)
             {
                 return true;

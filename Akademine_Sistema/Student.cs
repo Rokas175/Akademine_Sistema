@@ -15,9 +15,8 @@ namespace Akademine_Sistema
 
         public bool student_Insert(string student_name, string student_lastname, string student_login, string student_pass, int group_id, string group_name)
         {
-            MySqlCommand command = new MySqlCommand("INSERT INTO `student`(`student_name`, `student_last_name`, `student_login`, `student_pass`, `group_id`, `group_name`) VALUES (@st_name, @st_lastname, @st_login, @st_pass, @gr_id, @gr_name)", dataB.getConnection);
-            //MySqlCommand command = new MySqlCommand("INSERT INTO `student`(`student_login`, `student_pass`, `student_name`, `student_last_name`) VALUES (@st_login, @st_pass, @st_name, @st_lastname)", dataB.getConnection);
-
+            MySqlCommand command = new MySqlCommand("INSERT INTO `student`(`student_name`, `student_last_name`, `student_login`, `student_pass`, `group_id`, `group_name`) " +
+                "VALUES (@st_name, @st_lastname, @st_login, @st_pass, @gr_id, @gr_name)", dataB.getConnection);       
 
             command.Parameters.Add("@st_name", MySqlDbType.String).Value = student_name;
             command.Parameters.Add("@st_lastname", MySqlDbType.String).Value = student_lastname;

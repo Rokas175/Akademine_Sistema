@@ -67,7 +67,7 @@ namespace Akademine_Sistema
             this.dataGridView_students.ReadOnly = true;
             this.dataGridView_students.RowHeadersWidth = 51;
             this.dataGridView_students.RowTemplate.Height = 24;
-            this.dataGridView_students.Size = new System.Drawing.Size(907, 150);
+            this.dataGridView_students.Size = new System.Drawing.Size(1012, 150);
             this.dataGridView_students.TabIndex = 7;
             // 
             // btn_delete_student
@@ -97,7 +97,7 @@ namespace Akademine_Sistema
             this.dataGridView_lecturers.Name = "dataGridView_lecturers";
             this.dataGridView_lecturers.RowHeadersWidth = 51;
             this.dataGridView_lecturers.RowTemplate.Height = 24;
-            this.dataGridView_lecturers.Size = new System.Drawing.Size(840, 150);
+            this.dataGridView_lecturers.Size = new System.Drawing.Size(1012, 150);
             this.dataGridView_lecturers.TabIndex = 10;
             // 
             // label2
@@ -126,7 +126,7 @@ namespace Akademine_Sistema
             this.dataGridView_groups.Name = "dataGridView_groups";
             this.dataGridView_groups.RowHeadersWidth = 51;
             this.dataGridView_groups.RowTemplate.Height = 24;
-            this.dataGridView_groups.Size = new System.Drawing.Size(840, 150);
+            this.dataGridView_groups.Size = new System.Drawing.Size(1012, 150);
             this.dataGridView_groups.TabIndex = 13;
             // 
             // label3
@@ -155,7 +155,7 @@ namespace Akademine_Sistema
             this.dataGridView_subjects.Name = "dataGridView_subjects";
             this.dataGridView_subjects.RowHeadersWidth = 51;
             this.dataGridView_subjects.RowTemplate.Height = 24;
-            this.dataGridView_subjects.Size = new System.Drawing.Size(840, 150);
+            this.dataGridView_subjects.Size = new System.Drawing.Size(1012, 150);
             this.dataGridView_subjects.TabIndex = 16;
             // 
             // label4
@@ -204,7 +204,7 @@ namespace Akademine_Sistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 1110);
+            this.ClientSize = new System.Drawing.Size(1206, 1110);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

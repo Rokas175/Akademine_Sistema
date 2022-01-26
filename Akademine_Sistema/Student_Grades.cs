@@ -15,7 +15,8 @@ namespace Akademine_Sistema
 
         public bool student_to_subject(int student_id, string student_name, int subject_id, string subject_name)
         {
-            MySqlCommand command = new MySqlCommand("INSERT INTO `student_grades`(`student_id`, `student_name`, `subject_id`, `subject_name`) VALUES (@st_id, @st_name, @sbj_id, @sbj_name)", dataB.getConnection);
+            MySqlCommand command = new MySqlCommand("INSERT INTO `student_grades`(`student_id`, `student_name`, `subject_id`, `subject_name`) " +
+                "VALUES (@st_id, @st_name, @sbj_id, @sbj_name)", dataB.getConnection);
 
             command.Parameters.Add("@st_id", MySqlDbType.String).Value = student_id;
             command.Parameters.Add("@st_name", MySqlDbType.String).Value = student_name;
